@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrón MVC - Historia</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#c4c4c4]">
+    <header>
+        <div class="flex flex-wrap items-center justify-between m-6">
+            <span class="text-pretty font-black text-4xl uppercase">CamiCodex</span>
+            <nav>
+                <ul class="flex gap-2 uppercase">
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="index.html">inicio</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="modelo.html">Modelo</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="vista.html">Vista</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="controlador.html">Controlador</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="conclusion.html">Conclusión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="min-h-full">
+        <section>
+
+            <div class="p-4 flex flex-wrap items-center justify-between">
+                <div class="ml-8">
+                    <h1
+                        class="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-white md:max-w-2xl md:text-5xl xl:text-6xl">
+                        El Origen Del Patrón MVC</h1>
+                    <p class="max-w-3xl mb-6 lg:mb-8 md:text-lg lg:text-xl">El patrón MVC
+                        (Modelo-Vista-Controlador)
+                        fue propuesto inicialmente por Trygve Reenskaug en 1979 mientras trabajaba en el laboratorio de
+                        Xerox PARC, donde se desarrollaban varias innovaciones tecnológicas clave. Reenskaug introdujo
+                        este
+                        concepto como parte del sistema de programación Smalltalk, que buscaba mejorar la manera en que
+                        los
+                        desarrolladores organizaban la estructura de las aplicaciones y la interacción con los usuarios.
+                    </p>
+                </div>
+                <div class="flex items-center-justify-center">
+                    <video width="640" height="360" controls class="rounded-3xl">
+                        <source src="./videos/MVC.mp4" type="video/mp4">
+                        Tu navegador no soporta el formato de video.
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="py-8 antialiased md:py-16">
+            <div class="mx-auto grid max-w-screen-xl px-4 pb-8 md:grid-cols-12 lg:gap-12 lg:pb-16 xl:gap-0">
+                <div class="content-center justify-self-start md:col-span-7 md:text-start">
+                    <h1
+                        class="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-white md:max-w-2xl md:text-5xl xl:text-6xl">
+                        Evolución en el Desarrollo de Software</h1>
+                    <p class="mb-4 max-w-2xl text-gray-500 md:mb-12 md:text-lg mb-3 lg:mb-5 lg:text-xl">
+                        Durante los años 80 y 90, el patrón MVC se extendió y empezó a ganar popularidad en el
+                        desarrollo de software más allá de Smalltalk. Su adopción se debió a la capacidad de dividir
+                        claramente la lógica de negocio, la interfaz de usuario y la interacción, lo que hacía que las
+                        aplicaciones fueran más mantenibles y escalables. El auge de las interfaces gráficas (GUIs)
+                        impulsó aún más su uso, ya que facilitaba la gestión de estas interacciones.
+
+                    </p>
+                    <a href="./modelo.html"
+                        class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#ff4221] hover:bg-[#ff7113] hover:scale-110">
+                        Ir a Modelo
+                        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hidden md:col-span-5 md:mt-0 md:flex">
+                    <img class="dark:hidden"
+                        src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/girl-shopping-list.svg"
+                        alt="shopping illustration" />
+                    <img class="hidden dark:block"
+                        src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/girl-shopping-list-dark.svg"
+                        alt="shopping illustration" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center m-4">
+        <p class="text-2xl font-bold">© 2024 Exposición MVC</p>
+    </footer>
+</body>
+
+</html>

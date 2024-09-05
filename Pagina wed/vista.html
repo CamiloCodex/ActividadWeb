@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrón MVC - Vista</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-[#c4c4c4]">
+    <header>
+        <div class="flex flex-wrap items-center justify-between m-6">
+            <span class="text-pretty font-black text-4xl uppercase">CamiCodex</span>
+            <nav>
+                <ul class="flex gap-2 uppercase">
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="index.html">inicio</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="historia.html"> modelo</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="vista.html">Vista</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="controlador.html">Controlador</a></li>
+                    <li><a class=" rounded-lg bg-[#ff4221] p-2 text-white font-black hover:bg-[#ff7113] "
+                            href="conclusion.html">Conclusión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="text-4xl font-bold text-center mb-4">¿Qué es la Vista en MVC?</h2>
+       
+    </main>
+
+
+
+    <section class="bg-white dark:bg-gray-900">
+        <div
+            class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full dark:hidden"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                alt="dashboard image">
+            <img class="w-full hidden dark:block"
+                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
+                alt="dashboard image">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">prueba</h2>
+                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">En el patrón MVC, el flujo
+                    comienza cuando el usuario interactúa con la Vista, lo que envía una solicitud al Controlador. El
+                    Controlador, actuando como intermediario, procesa la solicitud y solicita al Modelo que realice las
+                    operaciones necesarias sobre los datos. El Modelo maneja la lógica de negocio y devuelve los
+                    resultados al Controlador, que luego actualiza la Vista con la nueva información para que el usuario
+                    pueda verla. Este ciclo garantiza una separación clara entre la presentación, la lógica de negocio y
+                    la interacción del usuario.</p>
+                
+                    <a href="./controlador.html"
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#ff4221] hover:bg-[#ff7113] hover:scale-110">
+                    Ir a Controlador
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer class="text-center m-4">
+        <p class="text-2xl font-bold">© 2024 Exposición MVC</p>
+    </footer>
+
+</body>
+
+</html>
